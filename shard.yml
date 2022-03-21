@@ -1,0 +1,9 @@
+name: ukrainian
+version: 0.1.0
+
+authors:
+  - Lucas M. D. <lucas@absolab.xyz>
+
+crystal: 1.3.2
+
+license: MIT
