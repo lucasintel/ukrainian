@@ -2,7 +2,7 @@
 
 Ukrainian language tooling for Crystal.
 
-[![CI](https://github.com/kandayo/ukrainian/actions/workflows/ci.yml/badge.svg)](https://github.com/kandayo/ukrainian/actions/workflows/ci.yml)
+[![CI](https://github.com/lucasintel/ukrainian/actions/workflows/ci.yml/badge.svg)](https://github.com/lucasintel/ukrainian/actions/workflows/ci.yml)
 
 ## Quickstart
 
@@ -21,9 +21,9 @@ Ukrainian.transliterate("Національний Технічний Уніве�
 
 ## Transliteration
 
-High performance Ukrainian transliteration (~20 million words per second on my end).
+Simple, high throughput Ukrainian transliteration for working with large volumes of data.
 
-This library uses the **Ukrainian National transliteration system (2010 version)** to provide transliteration.
+Compliant with the [**Ukrainian National transliteration system (2010 version)**](https://zakon.rada.gov.ua/laws/show/55-2010-%D0%BF).
 
 ## Installation
 
@@ -32,14 +32,14 @@ This library uses the **Ukrainian National transliteration system (2010 version)
    ```yaml
    dependencies:
      ukrainian:
-       github: kandayo/ukrainian
+       github: lucasintel/ukrainian
    ```
 
 2. Run `shards install`
 
 ## Contributing
 
-1. Fork it (<https://github.com/kandayo/ukrainian/fork>)
+1. Fork it (<https://github.com/lucasintel/ukrainian/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -47,4 +47,4 @@ This library uses the **Ukrainian National transliteration system (2010 version)
 
 ## Contributors
 
-- [Lucas M. D.](https://github.com/kandayo) - creator and maintainer
+- [Lucas M. D.](https://github.com/lucasintel) - creator and maintainer
